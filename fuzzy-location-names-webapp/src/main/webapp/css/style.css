@@ -1,0 +1,42 @@
+html,body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+#topContainer {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+#textInfo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 300px;
+	margin: 10px;	
+	text-align: justify;
+}
+
+#mapCanvas {
+	position: absolute;
+	top: 0;
+	left: 320px;
+	right: 0;
+	bottom: 0;
+}
+
+#locationText {
+	color: red;
+}
+
+/* Sized for a 200px wide picture (<= 200 px tall) */
+#infoDiv {
+	height: 200px;
+	width: 200px;
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
